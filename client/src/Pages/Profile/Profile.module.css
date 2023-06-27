@@ -1,0 +1,11 @@
+.ProfileContainer {
+  background-color: #0A0A0A;
+  color: "white"
+}
+
+.subProfileContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

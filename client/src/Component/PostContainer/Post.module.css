@@ -1,0 +1,74 @@
+.PostContainer {
+  width: 42vw;
+}
+
+.SubPostContainer {
+  width: 93%;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #272525;
+  color: white;
+}
+
+.PostImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.PostImages {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.white {
+  width: 20px;
+  filter: grayscale(1) invert(1);
+}
+
+.iconsforPost {
+  width: 20px;
+  filter: grayscale(1) invert(1);
+}
+
+.likeIcon {
+  width: 20px;
+}
+
+.removeFriend {
+  width: 20px;
+  height: 20px;
+}
+
+.moreicons {
+  width: 20px;
+  margin-left: 380px;
+}
+
+.commentinput {
+  width: 60%;
+  margin-left: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+
+.addCommentbtn {
+  padding: 9px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  margin-left: 4.5%;
+  cursor: pointer;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
