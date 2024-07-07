@@ -152,8 +152,8 @@ const forgotPassowrdMail = async (req, res) => {
                 ],
                 subject: 'Reset Password for Social',
                 htmlContent: `<p>Your reset password link is: 
-                    <a href="https://socialbuddies.onrender.com/reset/password?token=${RandomTxt}&_id=${user._id}">
-                    https://socialbuddies.onrender.com/reset/password?token=${RandomTxt}&_id=${user._id}
+                    <a href="https://socialbuddies-f3e87.web.app/reset/password?token=${RandomTxt}&_id=${user._id}">
+                    https://socialbuddies-f3e87.web.app/reset/password?token=${RandomTxt}&_id=${user._id}
                     </a>
                 </p>`,
                 replyTo: {

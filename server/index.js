@@ -24,7 +24,7 @@ const start = async () => {
 
     const io = socket(server, {
       cors: {
-        origin: 'https://socialbuddies.onrender.com',
+        origin: 'https://socialbuddies-f3e87.web.app',
         credentials: true,
       }
     })
